@@ -1,5 +1,5 @@
-
 #weeek4
+
 ge.itvet.security package-ში შექმენით BuildingType (შენობის ტიპი) enum შემდეგი მნიშვნელობებით
 
 RESIDENTIAL, (საცხოვრებელი)
