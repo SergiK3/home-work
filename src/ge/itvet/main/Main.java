@@ -1,7 +1,14 @@
 package ge.itvet.main;
 
+import ge.itvet.security.BuildingType;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("this is week 4");
+
+        BuildingType sergi = BuildingType.EDUCATIONAL;
+
+
     }
+
+
 }

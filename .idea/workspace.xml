@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="week 4">
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/ge/itvet/security/BuildingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/pti/EngineType.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/itvet/security/BuildingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/ge/itvet/security/BuildingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,13 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ge.itvet.main.Main" />
@@ -81,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652191433817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="week 4">
+      <created>1652464771106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652464771106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="enums" />
+    <MESSAGE value="week 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4" />
   </component>
 </project>
