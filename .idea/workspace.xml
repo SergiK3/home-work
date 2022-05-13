@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="enums are done">
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/security/ThereCantBeNegativeAmountOfPeopleException.java" afterDir="false" />
+    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="Gate and Building done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/BuildingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/BuildingType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Hospital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652471076578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Gate and Building done">
+      <created>1652473485156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652473485156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
     <MESSAGE value="enums" />
     <MESSAGE value="week 4" />
     <MESSAGE value="enums are done" />
-    <option name="LAST_COMMIT_MESSAGE" value="enums are done" />
+    <MESSAGE value="Gate and Building done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gate and Building done" />
   </component>
 </project>

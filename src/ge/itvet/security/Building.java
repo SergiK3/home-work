@@ -12,13 +12,12 @@ package ge.itvet.security;
 //დაუმატეთ მხოლოდ getter-ები
 
 
-public class Building extends Gate{
-    private  BuildingType type;
-    private Gate gates;
-//final - ები იმიტომ არ გავაკეთე რომ შენობა შეიძლება მომავალში სხვა დაწესებულების
-// გახდეს და gate შეიძლება დაემატოს
+public class Building extends Gate {
+    protected final BuildingType type;
+    protected Gate[] gates;
 
-    protected Building(BuildingType type, Gate gates) {
+
+    public Building(BuildingType type, Gate[] gates) {
         this.type = type;
         this.gates = gates;
     }
@@ -27,14 +26,13 @@ public class Building extends Gate{
         return type;
     }
 
-    public Gate getGates() {
+    public Gate[] getGates() {
         return gates;
     }
 
-    public int retrieveAmountOfPeopleInTheBuilding () {
+    public int retrieveAmountOfPeopleInTheBuilding() {
         return amountOfPeopleInTheBuilding;
     }
-
 
 
 }

@@ -1,4 +1,7 @@
 package ge.itvet.security;
+
+import java.util.UUID;
+
 //ველები
 //name - სახელი;
 //identNo - საიდენტიფიკაციო კოდი (სტრიქონი უნიკალურობის განსაზღვრისთვის.)
@@ -8,5 +11,25 @@ package ge.itvet.security;
 //
 //მეთოდები
 //getGateByIndex - რომელსაც პარამეტრად გადაეცემა კარის ინდექსი, და დააბრუნებს კარს შესაბამის ინდექსზე.
-public class Hospital {
+public class Hospital extends Building {
+    private String name;
+    private final String identNo;
+
+    public Hospital(Gate[] gates, String name) {
+        super(BuildingType.INSTITUTIONAL, gates);
+        this.name = name;
+        this.identNo = UUID.randomUUID().toString();
+
+    }
+
+    @Override
+    public String toString() {
+        return "Hospital{" +
+                "name='" + name + '\'' +
+                ", identNo='" + identNo + '\'' +
+                ", type=" + type +
+                ", gates=" + gates +
+                ", amountOfPeopleInTheBuilding=" + amountOfPeopleInTheBuilding +
+                '}';
+    }
 }
