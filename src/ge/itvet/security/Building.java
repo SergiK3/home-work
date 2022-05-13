@@ -14,13 +14,18 @@ package ge.itvet.security;
 
 import java.util.Arrays;
 
-public class Building  {
+public class Building {
 
-    protected final BuildingType type;
+    protected BuildingType type;
     protected Gate[] gates;
-    protected int amountOfPeopleInTheBuilding;
+    protected Gate gate;
 
-    public Building(BuildingType type, Gate[] gates) {
+
+    public Building() {
+
+    }
+
+    protected Building(BuildingType type, Gate[] gates) {
         this.type = type;
         this.gates = gates;
     }
@@ -34,7 +39,7 @@ public class Building  {
     }
 
     public int retrieveAmountOfPeopleInTheBuilding() {
-        return amountOfPeopleInTheBuilding;
+        return gate.getAmountOfPeopleInTheBuilding();
     }
 
     @Override
@@ -42,7 +47,7 @@ public class Building  {
         return "Building{" +
                 "type=" + type +
                 ", gates=" + Arrays.toString(gates) +
-                ", amountOfPeopleInTheBuilding=" + amountOfPeopleInTheBuilding +
+                ", amountOfPeopleInTheBuilding=" + gate.getAmountOfPeopleInTheBuilding() +
                 '}';
     }
 }

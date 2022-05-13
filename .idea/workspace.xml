@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="In progress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" afterDir="false" />
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652473485156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="In progress">
+      <created>1652477595412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652477595412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="week 4" />
     <MESSAGE value="enums are done" />
     <MESSAGE value="Gate and Building done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gate and Building done" />
+    <MESSAGE value="In progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress" />
   </component>
 </project>

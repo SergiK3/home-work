@@ -10,24 +10,23 @@ package ge.itvet.security;
 
 public class Gate {
 
-    private Building gate;
+    private int amountOfPeopleInTheBuilding;
 
+
+    public int getAmountOfPeopleInTheBuilding() {
+        return amountOfPeopleInTheBuilding;
+    }
 
     public void enter() {
-        gate.amountOfPeopleInTheBuilding++;
+        amountOfPeopleInTheBuilding++;
     }
 
     public void leave() throws ThereCantBeNegativeAmountOfPeopleException {
-        if (gate.amountOfPeopleInTheBuilding - 1 < 0) {
+        if (amountOfPeopleInTheBuilding - 1 < 0) {
             throw new ThereCantBeNegativeAmountOfPeopleException("something went wrong");
         }
-        gate.amountOfPeopleInTheBuilding--;
+        amountOfPeopleInTheBuilding--;
     }
 
-    @Override
-    public String toString() {
-        return "Gate{" +
-                "gate=" + gate +
-                '}';
-    }
+
 }

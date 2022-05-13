@@ -1,5 +1,6 @@
 package ge.itvet.security;
 
+import java.util.Arrays;
 import java.util.UUID;
 
 //ველები
@@ -32,8 +33,8 @@ public class Hospital extends Building {
                 "name='" + name + '\'' +
                 ", identNo='" + identNo + '\'' +
                 ", type=" + type +
-                ", gates=" + gates +
-                ", amountOfPeopleInTheBuilding=" + amountOfPeopleInTheBuilding +
+                ", gates=" + Arrays.toString(gates) +
+                ", amountOfPeopleInTheBuilding=" + gate.getAmountOfPeopleInTheBuilding() +
                 '}';
     }
 }
