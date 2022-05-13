@@ -22,6 +22,10 @@ public class Hospital extends Building {
 
     }
 
+    public Gate getGateByIndex(int index) {
+        return gates[index];
+    }
+
     @Override
     public String toString() {
         return "Hospital{" +

@@ -12,10 +12,13 @@ package ge.itvet.security;
 //დაუმატეთ მხოლოდ getter-ები
 
 
-public class Building extends Gate {
+import java.util.Arrays;
+
+public class Building  {
+
     protected final BuildingType type;
     protected Gate[] gates;
-
+    protected int amountOfPeopleInTheBuilding;
 
     public Building(BuildingType type, Gate[] gates) {
         this.type = type;
@@ -34,5 +37,12 @@ public class Building extends Gate {
         return amountOfPeopleInTheBuilding;
     }
 
-
+    @Override
+    public String toString() {
+        return "Building{" +
+                "type=" + type +
+                ", gates=" + Arrays.toString(gates) +
+                ", amountOfPeopleInTheBuilding=" + amountOfPeopleInTheBuilding +
+                '}';
+    }
 }
