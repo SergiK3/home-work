@@ -7,17 +7,20 @@ import java.util.UUID;
 public class Main {
     public static void main(String[] args) throws ThereCantBeNegativeAmountOfPeopleException {
 
-        Gate entrance = new Gate();
-        Gate exit = new Gate();
+
+        Hospital amteli = new Hospital(new Gate[]{new Gate(), new Gate()}, "Amtel-Hospital");
+
+        amteli.getGateByIndex(0).enter();
+        amteli.getGateByIndex(0).enter();
+        amteli.getGateByIndex(0).enter();
 
 
-        Hospital amteli = new Hospital(new Gate[]{entrance, exit}, "Amtel-Hospital");
+        System.out.println("There are - " + amteli.retrieveAmountOfPeopleInTheBuilding() + " - People in the hospital");
 
-        entrance.enter();
-        entrance.enter();
-        entrance.enter();
-        System.out.println(amteli.retrieveAmountOfPeopleInTheBuilding());
+        amteli.getGateByIndex(1).leave();
+        amteli.getGateByIndex(1).leave();
 
+        System.out.println("There are - " + amteli.retrieveAmountOfPeopleInTheBuilding() + " - People in the hospital");
 
     }
 

@@ -3,6 +3,8 @@ package ge.itvet.security;
 import java.util.Arrays;
 import java.util.UUID;
 
+
+
 //ველები
 //name - სახელი;
 //identNo - საიდენტიფიკაციო კოდი (სტრიქონი უნიკალურობის განსაზღვრისთვის.)
@@ -34,7 +36,6 @@ public class Hospital extends Building {
                 ", identNo='" + identNo + '\'' +
                 ", type=" + type +
                 ", gates=" + Arrays.toString(gates) +
-                ", amountOfPeopleInTheBuilding=" + gate.getAmountOfPeopleInTheBuilding() +
                 '}';
     }
 }

@@ -14,16 +14,13 @@ package ge.itvet.security;
 
 import java.util.Arrays;
 
+
 public class Building {
 
-    protected BuildingType type;
-    protected Gate[] gates;
-    protected Gate gate;
+    protected final BuildingType type;
+    protected final Gate[] gates;
 
 
-    public Building() {
-
-    }
 
     protected Building(BuildingType type, Gate[] gates) {
         this.type = type;
@@ -38,8 +35,11 @@ public class Building {
         return gates;
     }
 
-    public int retrieveAmountOfPeopleInTheBuilding() {
-        return gate.getAmountOfPeopleInTheBuilding();
+    public int retrieveAmountOfPeopleInTheBuilding() throws ThereCantBeNegativeAmountOfPeopleException {
+        if(gates[0].getAmountOfPeopleEntered() + gates[1].getAmountOfPeopleEntered() < 0) {
+            throw new ThereCantBeNegativeAmountOfPeopleException("something went wrong");
+        }
+        return gates[0].getAmountOfPeopleEntered() + gates[1].getAmountOfPeopleEntered();
     }
 
     @Override
@@ -47,7 +47,6 @@ public class Building {
         return "Building{" +
                 "type=" + type +
                 ", gates=" + Arrays.toString(gates) +
-                ", amountOfPeopleInTheBuilding=" + gate.getAmountOfPeopleInTheBuilding() +
                 '}';
     }
 }
