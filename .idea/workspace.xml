@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="enums" />
+    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="week 4">
+      <change afterPath="$PROJECT_DIR$/src/ge/itvet/ge/itvet/security/BuildingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/pti/EngineType.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
