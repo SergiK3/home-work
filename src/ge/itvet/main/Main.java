@@ -22,6 +22,8 @@ public class Main {
 
         System.out.println("There are - " + amteli.retrieveAmountOfPeopleInTheBuilding() + " - People in the hospital");
 
+        System.out.println(amteli.getType().geoName);
+
     }
 
 

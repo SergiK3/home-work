@@ -13,6 +13,7 @@ package ge.itvet.security;
 
 
 import java.util.Arrays;
+import java.util.Objects;
 
 
 public class Building {
@@ -48,5 +49,20 @@ public class Building {
                 "type=" + type +
                 ", gates=" + Arrays.toString(gates) +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Building building = (Building) o;
+        return type == building.type && Arrays.equals(gates, building.gates);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(type);
+        result = 31 * result + Arrays.hashCode(gates);
+        return result;
     }
 }

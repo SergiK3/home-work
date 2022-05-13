@@ -1,8 +1,8 @@
 package ge.itvet.security;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.UUID;
-
 
 
 //ველები
@@ -37,5 +37,18 @@ public class Hospital extends Building {
                 ", type=" + type +
                 ", gates=" + Arrays.toString(gates) +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Hospital hospital = (Hospital) o;
+        return name.equals(hospital.name) && identNo.equals(hospital.identNo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, identNo);
     }
 }
