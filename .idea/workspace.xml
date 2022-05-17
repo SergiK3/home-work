@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="Done.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/security/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/security/Hospital.java" afterDir="false" />
-    </list>
+    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="enums" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -37,7 +31,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
@@ -70,7 +63,6 @@
       <option name="presentableId" value="Default" />
       <updated>1652190925141</updated>
       <workItem from="1652190926266" duration="510000" />
-      <workItem from="1652484038586" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="enums">
       <created>1652191245372</created>
@@ -86,49 +78,7 @@
       <option name="project" value="LOCAL" />
       <updated>1652191433817</updated>
     </task>
-    <task id="LOCAL-00003" summary="week 4">
-      <created>1652464771106</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1652464771106</updated>
-    </task>
-    <task id="LOCAL-00004" summary="enums are done">
-      <created>1652471076578</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1652471076578</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Gate and Building done">
-      <created>1652473485156</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1652473485156</updated>
-    </task>
-    <task id="LOCAL-00006" summary="In progress">
-      <created>1652477595412</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1652477595412</updated>
-    </task>
-    <task id="LOCAL-00007" summary="In progress">
-      <created>1652479728973</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1652479728973</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Done.">
-      <created>1652483644849</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1652483644849</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,11 +97,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="enums" />
-    <MESSAGE value="week 4" />
-    <MESSAGE value="enums are done" />
-    <MESSAGE value="Gate and Building done" />
-    <MESSAGE value="In progress" />
-    <MESSAGE value="Done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="enums" />
   </component>
 </project>
