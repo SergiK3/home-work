@@ -1,6 +1,6 @@
 package ge.itvet.olympic;
 
-public enum MedalType {
+enum MedalType {
     GOLD,
     SILVER,
     BRONZE;
