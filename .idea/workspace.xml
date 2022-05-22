@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="week 7">
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameFutureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameYearException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameFutureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameFutureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameYearException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/exception/OlympicGameYearException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652190925141</updated>
       <workItem from="1652190926266" duration="510000" />
-      <workItem from="1653214935681" duration="305000" />
+      <workItem from="1653214935681" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="enums">
       <created>1652191245372</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653215023712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="week 7">
+      <created>1653215440608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653215440608</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
