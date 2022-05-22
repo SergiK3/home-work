@@ -1,6 +1,6 @@
 package ge.itvet.olympic;
 
-enum OlympicGame {
+public enum OlympicGame {
     BASKETBALL_3X3(OlympicGameSeason.SUMMER), ARCHERY(OlympicGameSeason.SUMMER), ARTISTIC_GYMNASTICS(OlympicGameSeason.SUMMER), ARTISTIC_SWIMMING(OlympicGameSeason.SUMMER), ATHLETICS(OlympicGameSeason.SUMMER), BADMINTON(OlympicGameSeason.SUMMER), BASEBALL_SOFTBALL(OlympicGameSeason.SUMMER),
     BASKETBALL(OlympicGameSeason.SUMMER), BEACH_VOLLEYBALL(OlympicGameSeason.SUMMER), BMX(OlympicGameSeason.SUMMER), BOXING(OlympicGameSeason.SUMMER), CANOE(OlympicGameSeason.SUMMER), DIVING(OlympicGameSeason.SUMMER), EQUESTRIAN(OlympicGameSeason.SUMMER), FENCING(OlympicGameSeason.SUMMER), FOOTBALL(OlympicGameSeason.SUMMER), GOLF(OlympicGameSeason.SUMMER), HANDBALL(OlympicGameSeason.SUMMER),
     HOCKEY(OlympicGameSeason.SUMMER), JUDO(OlympicGameSeason.SUMMER), KARATE(OlympicGameSeason.SUMMER), MARATHON_SWIMMING(OlympicGameSeason.SUMMER), MODERN_PENTATHLON(OlympicGameSeason.SUMMER), MOUNTAIN_BIKE(OlympicGameSeason.SUMMER), RHYTHMIC_GYMNASTICS(OlympicGameSeason.SUMMER),
