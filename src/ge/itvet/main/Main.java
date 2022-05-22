@@ -10,14 +10,10 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws OlympicGameException {
 
-        Set<Game> gameSet = OlympicGameGenerator.generateGamesForYear(1936);
-        System.out.println(gameSet);
+        Set<Medal> medalSet = OlympicGameGenerator.generateOlympicMedalsForYear
+                (2000,2002,2004,2006,2008,2010,2012,2014,2016,2018,2020,2022);
 
-        Set<Medal> medalSet = OlympicGameGenerator.generateMedalsForGames(gameSet,MedalType.GOLD);
-        System.out.println(medalSet);
 
-        Set<Medal> medalSet1 = OlympicGameGenerator.generateOlympicMedalsForYear(2004,2002);
-        System.out.println(medalSet1);
     }
 
 

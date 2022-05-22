@@ -21,7 +21,7 @@ public class OlympicGameGenerator {
     public static Set<Game> generateGamesForYear(int year) throws OlympicGameException {
         Set<Game> gameSet = new HashSet<>();
 
-        if ((year > 1896) && (year < LocalDate.now().getYear()) && (year % 4 == 0)) {
+        if ((year > 1896) && (year <= LocalDate.now().getYear()) && (year % 4 == 0)) {
             for (OlympicGame game : OlympicGame.values()) {
                 if (game.getSeason() == OlympicGameSeason.SUMMER)
                     gameSet.add(new Game(game, year));
@@ -29,7 +29,7 @@ public class OlympicGameGenerator {
             return gameSet;
         }
 
-        if ((year > 1924) && (year < LocalDate.now().getYear()) && (year % 2 == 0) && (year % 4 != 0)) {
+        if ((year > 1924) && (year <= LocalDate.now().getYear()) && (year % 2 == 0) && (year % 4 != 0)) {
             for (OlympicGame game : OlympicGame.values()) {
                 if (game.getSeason() == OlympicGameSeason.WINTER)
                     gameSet.add(new Game(game, year));
