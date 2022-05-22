@@ -1,6 +1,6 @@
 package ge.itvet.olympic;
 
-public enum OlympicGameSeason {
+ enum OlympicGameSeason {
     WINTER,
     SUMMER;
 }

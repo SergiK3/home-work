@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="week 7">
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/MedalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameSeason.java" afterDir="false" />
+    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="enums done">
+      <change afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameSeason.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameSeason.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652190925141</updated>
       <workItem from="1652190926266" duration="510000" />
-      <workItem from="1653214935681" duration="3001000" />
+      <workItem from="1653214935681" duration="6557000" />
     </task>
     <task id="LOCAL-00001" summary="enums">
       <created>1652191245372</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653217052800</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="enums done">
+      <created>1653217991369</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653217991369</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +172,7 @@
     <MESSAGE value="enums" />
     <MESSAGE value="Insertion sort" />
     <MESSAGE value="week 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 7" />
+    <MESSAGE value="enums done" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums done" />
   </component>
 </project>
