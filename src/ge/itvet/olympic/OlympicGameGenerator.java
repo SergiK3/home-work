@@ -7,8 +7,8 @@ import java.util.*;
 
 public class OlympicGameGenerator {
 
-    private static Random random = new Random();
-    private static List<Country> countryArrayList = new ArrayList<>();
+    private static final Random random = new Random();
+    private static final List<Country> countryArrayList = new ArrayList<>();
     static {
         //metodshi yovel gamodzaxebaze ro ar sheqmniliyo aq gavitane da swori midgomaa?
         for (Country country : Country.values()) {
