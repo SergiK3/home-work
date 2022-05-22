@@ -3,14 +3,19 @@ package ge.itvet.olympic;
 import ge.itvet.exception.OlympicGameException;
 
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class OlympicGameGenerator {
-    //მეთოდები სტატიკური
-    //generateGamesForYear რომელსაც გადაეცემა წელი, და დააბრუნებს თამაშების კოლექციას (Set<Game>)
-    // რომელიც შესაბამის წელს ჩატარდა. თუ ზამთრის სეზონის წელი იყო,
-    // მაშინ ყველა ზამთრის სეზონის OlympicGame-სთვის უნდა დაგენერირდეს თამაში. - შესაბამისად ზაფხულზეც.
+
+    private static Random random = new Random();
+    private static List<Country> countryArrayList = new ArrayList<>();
+    static {
+        //metodshi yovel gamodzaxebaze ro ar sheqmniliyo aq gavitane da swori midgomaa?
+        for (Country country : Country.values()) {
+            countryArrayList.add(country);
+        }
+
+    }
 
     public static Set<Game> generateGamesForYear(int year) throws OlympicGameException {
         Set<Game> gameSet = new HashSet<>();
@@ -33,5 +38,18 @@ public class OlympicGameGenerator {
 
         throw new OlympicGameException("provided incorrect year");
 
+    }
+
+
+    public static Set<Medal> generateMedalsForGames(Collection<Game> collection, MedalType medalType) {
+
+        Set<Medal> medalSet = new HashSet<>();
+
+        for (Game game : collection) {
+            medalSet.add(new Medal(game, medalType, countryArrayList.get(random.nextInt(205))));
+
+        }
+
+        return null;
     }
 }

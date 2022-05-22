@@ -7,8 +7,7 @@ public class Medal {
     private MedalType medal;
     private Country country;
 
-    public Medal() {
-    }
+
 
     public Medal(Game game, MedalType medal, Country country) {
         this.game = game;
