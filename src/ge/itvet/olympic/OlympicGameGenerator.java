@@ -50,6 +50,6 @@ public class OlympicGameGenerator {
 
         }
 
-        return null;
+        return medalSet;
     }
 }

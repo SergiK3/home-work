@@ -10,16 +10,11 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws OlympicGameException {
 
+        Set<Game> gameSet = OlympicGameGenerator.generateGamesForYear(1936);
+        System.out.println(gameSet);
 
-        List<Country> countryArrayList = new ArrayList<>();
-
-        for (Country country:Country.values()) {
-            countryArrayList.add(country);
-        }
-
-
-
-        ;
+        Set<Medal> medalSet = OlympicGameGenerator.generateMedalsForGames(gameSet,MedalType.GOLD);
+        System.out.println(medalSet);
     }
 
 
