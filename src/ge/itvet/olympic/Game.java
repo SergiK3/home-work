@@ -5,6 +5,7 @@ import ge.itvet.exception.OlympicGameFutureException;
 import ge.itvet.exception.OlympicGameYearException;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Game {
     //ge.itvet.olympic package-ში შექმენით კლასი Game (თამაში)
@@ -45,6 +46,35 @@ public class Game {
 
         this.game = game;
 
+    }
+
+    public OlympicGame getGame() {
+        return game;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Game game1 = (Game) o;
+        return year == game1.year && game == game1.game;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(game, year);
+    }
+
+    @Override
+    public String toString() {
+        return "Game{" +
+                "game=" + game +
+                ", year=" + year +
+                '}';
     }
 }
 
