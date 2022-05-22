@@ -15,6 +15,9 @@ public class Main {
 
         Set<Medal> medalSet = OlympicGameGenerator.generateMedalsForGames(gameSet,MedalType.GOLD);
         System.out.println(medalSet);
+
+        Set<Medal> medalSet1 = OlympicGameGenerator.generateOlympicMedalsForYear(2004,2002);
+        System.out.println(medalSet1);
     }
 
 

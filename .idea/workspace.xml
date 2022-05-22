@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="OlympicGameGenerator meore statikuri metodi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652190925141</updated>
       <workItem from="1652190926266" duration="510000" />
-      <workItem from="1653214935681" duration="18905000" />
+      <workItem from="1653214935681" duration="20616000" />
     </task>
     <task id="LOCAL-00001" summary="enums">
       <created>1652191245372</created>
@@ -227,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653245762630</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="OlympicGameGenerator meore statikuri metodi">
+      <created>1653246363996</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653246363996</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

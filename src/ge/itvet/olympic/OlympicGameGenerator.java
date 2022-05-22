@@ -9,6 +9,7 @@ public class OlympicGameGenerator {
 
     private static final Random random = new Random();
     private static final List<Country> countryArrayList = new ArrayList<>();
+
     static {
         //metodshi yovel gamodzaxebaze ro ar sheqmniliyo aq gavitane da swori midgomaa?
         for (Country country : Country.values()) {
@@ -40,7 +41,6 @@ public class OlympicGameGenerator {
 
     }
 
-
     public static Set<Medal> generateMedalsForGames(Collection<Game> collection, MedalType medalType) {
 
         Set<Medal> medalSet = new HashSet<>();
@@ -51,5 +51,18 @@ public class OlympicGameGenerator {
         }
 
         return medalSet;
+    }
+
+    public static Set<Medal> generateOlympicMedalsForYear(int... years) throws OlympicGameException {
+
+        Set<Medal> finalMedalSet = new HashSet<>();
+
+        for (int year:years) {
+            finalMedalSet.addAll(generateMedalsForGames(generateGamesForYear(year),MedalType.GOLD));
+            finalMedalSet.addAll(generateMedalsForGames(generateGamesForYear(year),MedalType.SILVER));
+            finalMedalSet.addAll(generateMedalsForGames(generateGamesForYear(year),MedalType.BRONZE));
+        }
+
+        return finalMedalSet;
     }
 }
