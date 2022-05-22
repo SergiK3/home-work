@@ -20,6 +20,7 @@ public class OlympicGameGenerator {
                 if (game.getSeason() == OlympicGameSeason.SUMMER)
                     gameSet.add(new Game(game, year));
             }
+            return gameSet;
         }
 
         if ((year > 1924) && (year < LocalDate.now().getYear()) && (year % 2 == 0) && (year % 4 != 0)) {
@@ -27,9 +28,10 @@ public class OlympicGameGenerator {
                 if (game.getSeason() == OlympicGameSeason.WINTER)
                     gameSet.add(new Game(game, year));
             }
+            return gameSet;
         }
 
+        throw new OlympicGameException("provided incorrect year");
 
-        return gameSet;
     }
 }
