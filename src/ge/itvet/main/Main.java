@@ -2,10 +2,7 @@ package ge.itvet.main;
 
 
 import ge.itvet.exception.OlympicGameException;
-import ge.itvet.olympic.Game;
-import ge.itvet.olympic.OlympicGame;
-
-
+import ge.itvet.olympic.*;
 
 
 public class Main {
@@ -13,6 +10,8 @@ public class Main {
 
         Game basket = new Game(OlympicGame.ALPINE_SKIING,1938);
         System.out.println(basket.hashCode());
+
+        Medal medal = new Medal(basket, MedalType.GOLD, Country.GEORGIA);
 
     }
 
