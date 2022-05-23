@@ -1,12 +1,12 @@
 package ge.itvet.olympic;
 
+
 import java.util.Objects;
 
 public class Medal {
     private Game game;
     private MedalType medal;
     private Country country;
-
 
 
     public Medal(Game game, MedalType medal, Country country) {
@@ -26,6 +26,7 @@ public class Medal {
     public Country getCountry() {
         return country;
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -48,4 +49,6 @@ public class Medal {
                 ", country=" + country +
                 '}';
     }
+
+
 }
