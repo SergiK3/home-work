@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="OlympicGameGenerator mesame statikuri metodi">
+    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="Testing left">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/olympic/OlympicGameGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652190925141</updated>
       <workItem from="1652190926266" duration="510000" />
-      <workItem from="1653214935681" duration="21222000" />
+      <workItem from="1653214935681" duration="21954000" />
+      <workItem from="1653303093738" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="enums">
       <created>1652191245372</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653248304019</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Testing left">
+      <created>1653248874292</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653248874292</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +277,7 @@
     <MESSAGE value="generateGamesForYear  for loopebit" />
     <MESSAGE value="OlympicGameGenerator meore statikuri metodi" />
     <MESSAGE value="OlympicGameGenerator mesame statikuri metodi" />
-    <option name="LAST_COMMIT_MESSAGE" value="OlympicGameGenerator mesame statikuri metodi" />
+    <MESSAGE value="Testing left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing left" />
   </component>
 </project>
