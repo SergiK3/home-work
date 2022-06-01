@@ -31,4 +31,12 @@ public class Action {
     public int hashCode() {
         return Objects.hash(idNum, action);
     }
+
+    @Override
+    public String toString() {
+        return "Action{" +
+                "idNum=" + idNum +
+                ", action=" + action +
+                '}';
+    }
 }
