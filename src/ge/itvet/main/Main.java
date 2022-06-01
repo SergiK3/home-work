@@ -13,9 +13,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new FileReader("src\\in.csv"));
+       
+        try ( BufferedReader reader = new BufferedReader(new FileReader("src\\in.csv")) ) {
+        
             List<Action> list = new ArrayList<>();
 
             String line;
@@ -25,18 +25,8 @@ public class Main {
             }
             System.out.println(list);
 
-
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 }
