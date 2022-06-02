@@ -16,6 +16,7 @@ public class Engine {
 
 
 
+
     public Engine () {
         this(EngineType.values()[(int) (Math.random() * EngineType.values().length)]);
     }
@@ -54,5 +55,14 @@ public class Engine {
     @Override
     public int hashCode() {
         return Objects.hash(type, volumeInCC, emission);
+    }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "type=" + type +
+                ", volumeInCC=" + volumeInCC +
+                ", emission=" + emission +
+                '}';
     }
 }
