@@ -12,7 +12,7 @@ public class Engine {
     private final EngineType type;
     private final Integer volumeInCC;
     private final Double emission;
-    private final static Random random = new Random();
+    private final static Random RANDOM = new Random();
 
 
 
@@ -24,8 +24,8 @@ public class Engine {
     public Engine(EngineType type) {
         this.type = type;
         if(this.type.hasEmission() == true) {
-            this.emission = random.nextInt((100) + 1) / 10d;
-            this.volumeInCC = random.nextInt(6000) + 1000;
+            this.emission = RANDOM.nextInt((100) + 1) / 10d;
+            this.volumeInCC = RANDOM.nextInt(6000) + 1000;
         } else {
             this.emission = null;
             this.volumeInCC = null;

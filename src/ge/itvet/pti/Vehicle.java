@@ -15,8 +15,7 @@ public class Vehicle {
     private final Engine engine;
     private final int seats;
     private final int brakingEfficiency;
-    private final static Random random = new Random();
-
+    private final static Random RANDOM = new Random();
 
 
     //არასტატიკური ინიციალიზაციის ბლოკი.
@@ -26,12 +25,15 @@ public class Vehicle {
 
     {
         this.engine = new Engine();
-        if (engine.getVolumeInCC() <= 2200) {
-            this.seats = random.nextInt(4) + 2;
+
+        if (engine.getType() == EngineType.ELECTRIC) {
+            this.seats = RANDOM.nextInt(9) + 2;
+        } else if (engine.getVolumeInCC() <= 2200) {
+            this.seats = RANDOM.nextInt(4) + 2;
         } else {
-            this.seats = random.nextInt(9) + 2;
+            this.seats = RANDOM.nextInt(9) + 2;
         }
-        this.brakingEfficiency = random.nextInt(100);
+        this.brakingEfficiency = RANDOM.nextInt(100);
     }
 
     public UUID getUuid() {
