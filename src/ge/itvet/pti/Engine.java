@@ -12,11 +12,9 @@ public class Engine {
     private final EngineType type;
     private final Integer volumeInCC;
     private final Double emission;
-    private final static Random random;
+    private final static Random random = new Random();
 
-    static {
-        random = new Random();
-    }
+
 
     public Engine () {
         this(EngineType.values()[(int) (Math.random() * EngineType.values().length)]);
