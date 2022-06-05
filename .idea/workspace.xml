@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="week 8 in progress,reader done">
+    <list default="true" id="d6ff933d-74f9-4f64-84c2-2b44dd90a352" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/gates/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/gates/BugDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/itvet/gates/EntranceAction.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/itvet/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,18 +16,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="week8" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,265 +27,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28yZjkgaLq5Eq0O4VfP28qMSXtZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2AA8RgfLCSdYyVQJDCp7Oa9CXpl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ge.itvet.main.Main" />
-      <module name="week6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ge.itvet.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="31001ab1-654f-4b10-a5df-ce8e7048d08c" name="Changes" comment="" />
-      <created>1652190925141</created>
+      <changelist id="d6ff933d-74f9-4f64-84c2-2b44dd90a352" name="Changes" comment="" />
+      <created>1654441024376</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652190925141</updated>
-      <workItem from="1652190926266" duration="510000" />
-      <workItem from="1653214935681" duration="21954000" />
-      <workItem from="1653303093738" duration="2532000" />
-      <workItem from="1653588850081" duration="688000" />
-      <workItem from="1653755673109" duration="1245000" />
-      <workItem from="1654088686780" duration="4648000" />
+      <updated>1654441024376</updated>
+      <workItem from="1654441026861" duration="146000" />
     </task>
-    <task id="LOCAL-00001" summary="enums">
-      <created>1652191245372</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652191245372</updated>
-    </task>
-    <task id="LOCAL-00002" summary="enums">
-      <created>1652191433817</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1652191433817</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Insertion sort">
-      <created>1652784623499</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1652784623499</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Insertion sort">
-      <created>1652785677961</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1652785677961</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Insertion sort">
-      <created>1652786041516</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1652786041516</updated>
-    </task>
-    <task id="LOCAL-00006" summary="week 7">
-      <created>1653215023712</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1653215023712</updated>
-    </task>
-    <task id="LOCAL-00007" summary="week 7">
-      <created>1653215440608</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1653215440608</updated>
-    </task>
-    <task id="LOCAL-00008" summary="week 7">
-      <created>1653216359265</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1653216359265</updated>
-    </task>
-    <task id="LOCAL-00009" summary="week 7">
-      <created>1653217052799</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1653217052800</updated>
-    </task>
-    <task id="LOCAL-00010" summary="enums done">
-      <created>1653217991369</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1653217991369</updated>
-    </task>
-    <task id="LOCAL-00011" summary="week 7">
-      <created>1653221552880</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1653221552880</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Game class done">
-      <created>1653221946257</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1653221946257</updated>
-    </task>
-    <task id="LOCAL-00013" summary="enum modifiers changed to default">
-      <created>1653222013545</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1653222013545</updated>
-    </task>
-    <task id="LOCAL-00014" summary="enum modifiers changed to default">
-      <created>1653222057006</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1653222057006</updated>
-    </task>
-    <task id="LOCAL-00015" summary="not all apparently">
-      <created>1653222324470</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1653222324470</updated>
-    </task>
-    <task id="LOCAL-00016" summary="week 7">
-      <created>1653231894884</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1653231894884</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Medal class done">
-      <created>1653232398776</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1653232398776</updated>
-    </task>
-    <task id="LOCAL-00018" summary="generateGamesForYear  for loopebit">
-      <created>1653237133456</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1653237133456</updated>
-    </task>
-    <task id="LOCAL-00019" summary="generateGamesForYear  for loopebit">
-      <created>1653237757511</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1653237757511</updated>
-    </task>
-    <task id="LOCAL-00020" summary="OlympicGameGenerator meore statikuri metodi">
-      <created>1653245648540</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1653245648540</updated>
-    </task>
-    <task id="LOCAL-00021" summary="OlympicGameGenerator meore statikuri metodi">
-      <created>1653245762630</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1653245762630</updated>
-    </task>
-    <task id="LOCAL-00022" summary="OlympicGameGenerator meore statikuri metodi">
-      <created>1653246363996</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1653246363996</updated>
-    </task>
-    <task id="LOCAL-00023" summary="OlympicGameGenerator mesame statikuri metodi">
-      <created>1653248304019</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1653248304019</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Testing left">
-      <created>1653248874292</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1653248874292</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Streameb ar mesmis">
-      <created>1653304873254</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1653304873254</updated>
-    </task>
-    <task id="LOCAL-00026" summary="starting week 8">
-      <created>1653588936758</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1653588936758</updated>
-    </task>
-    <task id="LOCAL-00027" summary="week 8 in progress">
-      <created>1654091175764</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1654091175764</updated>
-    </task>
-    <task id="LOCAL-00028" summary="week 8 in progress">
-      <created>1654091372012</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1654091372012</updated>
-    </task>
-    <task id="LOCAL-00029" summary="week 8 in progress,reader done">
-      <created>1654091932574</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1654091932574</updated>
-    </task>
-    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,24 +66,8 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="enums" />
-    <MESSAGE value="Insertion sort" />
-    <MESSAGE value="enums done" />
-    <MESSAGE value="Game class done" />
-    <MESSAGE value="enum modifiers changed to default" />
-    <MESSAGE value="not all apparently" />
-    <MESSAGE value="week 7" />
-    <MESSAGE value="Medal class done" />
-    <MESSAGE value="generateGamesForYear  for loopebit" />
-    <MESSAGE value="OlympicGameGenerator meore statikuri metodi" />
-    <MESSAGE value="OlympicGameGenerator mesame statikuri metodi" />
-    <MESSAGE value="Testing left" />
-    <MESSAGE value="Streameb ar mesmis" />
-    <MESSAGE value="starting week 8" />
-    <MESSAGE value="week 8 in progress" />
-    <MESSAGE value="week 8 in progress,reader done" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 8 in progress,reader done" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
