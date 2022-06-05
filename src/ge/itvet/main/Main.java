@@ -3,18 +3,20 @@ package ge.itvet.main;
 
 import java.util.*;
 
+
 public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] array = new int[Integer.parseInt(scanner.nextLine())];
+        Integer[] array = new Integer[Integer.parseInt(scanner.nextLine())];
         String[] array1 = scanner.nextLine().split(" ");
 
         for (int i = 0; i < array1.length; i++) {
             array[i] = Integer.parseInt(array1[i]);
         }
-        System.out.println(uniqueElements(array));
+
+        System.out.println(uniqueElementsWithCollections(array));
         scanner.close();
 
     }
@@ -30,5 +32,18 @@ public class Main {
             }
         }
         return arr.length - notUniqueElement;
+    }
+
+    public static int uniqueElementsWithCollections(Integer[] arr) {
+
+        ArrayList<Integer> arrayList = new ArrayList<>(List.of(arr));
+        Set<Integer> integerSet = new HashSet<>(List.of(arr));
+
+
+        integerSet.forEach(arrayList::remove);
+        arrayList.forEach(integerSet::remove);
+
+        return integerSet.size();
+
     }
 }
