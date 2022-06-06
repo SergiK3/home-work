@@ -6,6 +6,8 @@ public class Action {
     private final int idNum;
     private final EntranceAction action;
 
+
+
     public Action(int idNum,EntranceAction action) {
         this.idNum = idNum;
         this.action = action;
