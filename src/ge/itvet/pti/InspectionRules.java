@@ -24,6 +24,13 @@ public class InspectionRules {
         this.brakingEfficiencyMinRequirement = brakingEfficiencyMinRequirement;
     }
 
+    public void putEngineMaxEmission(EngineType type,Double maxEmission) {
+        if (!(type.hasEmission())) {
+            throw new IllegalArgumentException("Cant put Electric Here");
+        }
+        this.engineMaxEmission.put(type,maxEmission);
+    }
+
     public Map<EngineType, Double> getEngineMaxEmission() {
         return engineMaxEmission;
     }
