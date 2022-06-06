@@ -14,34 +14,34 @@ public class InspectionRules {
 //getter, setter-ები
 //toString
 
-    private Map<EngineType,Double> engineMaxEmission;
-    private int brakingEfficiencyMinRequirement;
-    private int minivanEmissionImmunity = RANDOM.nextInt();
     private final static Random RANDOM = new Random();
+    private final Map<EngineType,Double> engineMaxEmission;
+    private final int brakingEfficiencyMinRequirement;
+    private final double minivanEmissionImmunity = RANDOM.nextInt((16) + 5) / 10d;
 
-
+    public InspectionRules(Map<EngineType, Double> engineMaxEmission, int brakingEfficiencyMinRequirement) {
+        this.engineMaxEmission = engineMaxEmission;
+        this.brakingEfficiencyMinRequirement = brakingEfficiencyMinRequirement;
+    }
 
     public Map<EngineType, Double> getEngineMaxEmission() {
         return engineMaxEmission;
-    }
-
-    public void setEngineMaxEmission(Map<EngineType, Double> engineMaxEmission) {
-        this.engineMaxEmission = engineMaxEmission;
     }
 
     public int getBrakingEfficiencyMinRequirement() {
         return brakingEfficiencyMinRequirement;
     }
 
-    public void setBrakingEfficiencyMinRequirement(int brakingEfficiencyMinRequirement) {
-        this.brakingEfficiencyMinRequirement = brakingEfficiencyMinRequirement;
-    }
-
-    public int getMinivanEmissionImmunity() {
+    public double getMinivanEmissionImmunity() {
         return minivanEmissionImmunity;
     }
 
-    public void setMinivanEmissionImmunity(int minivanEmissionImmunity) {
-        this.minivanEmissionImmunity = minivanEmissionImmunity;
+    @Override
+    public String toString() {
+        return "InspectionRules{" +
+                "engineMaxEmission=" + engineMaxEmission +
+                ", brakingEfficiencyMinRequirement=" + brakingEfficiencyMinRequirement +
+                ", minivanEmissionImmunity=" + minivanEmissionImmunity +
+                '}';
     }
 }
