@@ -9,7 +9,7 @@ public class InspectionCenter {
         InspectionCenter.rules = rules;
     }
 
-    public static List inspection(Vehicle vehicle) {
+    public static List<InspectionFaultyTypes> inspection(Vehicle vehicle) {
 
 
 

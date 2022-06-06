@@ -12,17 +12,16 @@ public class Main {
     public static void main(String[] args) {
 
 
-        InspectionRules rules = new InspectionRules(new HashMap<>(),20);
+        InspectionRules rules = new InspectionRules(new HashMap<>(), 20);
 
 
-        rules.putEngineMaxEmission(EngineType.DIESEL,5d);
-        rules.putEngineMaxEmission(EngineType.HYBRID,5d);
-        rules.putEngineMaxEmission(EngineType.PETROL,5d);
+
+
+        System.out.println(rules.getEngineMaxEmission());
+        rules.getEngineMaxEmission().put(EngineType.DIESEL,7d);
 
         System.out.println(rules.getEngineMaxEmission());
 
-        Vehicle vehicle = new Vehicle();
-        System.out.println(vehicle);
 
     }
 }
